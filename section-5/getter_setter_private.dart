@@ -4,8 +4,10 @@ import 'DatabaseConnection.dart';
 void main(List<String> args) {
   DatabaseConncetion db =DatabaseConncetion();
   DatabaseConncetion db2 = DatabaseConncetion.LoginNameAndPassword("Deniz", "1234");
+  db2.Connection();
 
   Customer c1 = Customer(-1234);
+  c1.CustomerIdGetter;
 
   Customer c2 =Customer(2345);
   c2.CustomerIdSetter=12345;

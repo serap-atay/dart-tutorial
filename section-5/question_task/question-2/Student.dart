@@ -1,5 +1,3 @@
-import 'dart:math';
-
 class Student {
   int id ;
   int point;

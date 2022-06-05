@@ -1,11 +1,10 @@
 import 'dart:math';
-
-import '../../class_intance.dart';
 import 'Student.dart';
 
 void main(List<String> args) {
 
   Student s1 = Student(id: 5 , point: 70);
+  s1.toString();
 
   List<Student> students = List.filled(100, Student());
 
